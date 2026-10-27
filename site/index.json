@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Fei family plugins",
+    "zh": "飞系插件"
+  },
+  "description": {
+    "en": "Bundles wiring DeepSeek Harness to the Fei family: 52 enterprise systems and the Feinao agent gateway.",
+    "zh": "把 DeepSeek Harness 接入飞系：52 个企业管理系统与飞脑 Agent 网关。"
+  },
+  "metadata": {
+    "categories": {
+      "fei": {
+        "title": {
+          "en": "Fei systems",
+          "zh": "飞系系统"
+        }
+      }
+    },
+    "labels": {
+      "bridge": {
+        "title": {
+          "en": "bridge",
+          "zh": "桥接"
+        }
+      },
+      "agent": {
+        "title": {
+          "en": "agent",
+          "zh": "智能体"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-plugin-fei-bridge",
+      "title": {
+        "en": "Fei Bridge",
+        "zh": "飞系桥接"
+      },
+      "description": {
+        "en": "First bridge bundle: inserts the fei-bridge plugin row into a dsh profile. Roadmap: feinao_chat / fei_query tools and fei instruction layers.",
+        "zh": "飞系接入第一块基石：向 profile 插入 fei-bridge 插件行。后续将注册 feinao_chat / fei_query 工具与飞系话术层。"
+      },
+      "icon": "icons/fei-bridge.svg",
+      "author": "dukema81 (小窝)",
+      "homepage": "https://github.com/dukema81/dsh-plugin-fei-bridge#readme",
+      "repository": {
+        "url": "https://github.com/dukema81/dsh-plugin-fei-bridge"
+      },
+      "metadata": {
+        "category": "fei",
+        "labels": [
+          "bridge",
+          "agent"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793080060,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dukema81/dsh-plugin-fei-bridge",
+            "commit": "066bbfcddf7ce4229febd54995c22d28b01ee9cc"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2"
+          }
+        }
+      ]
+    }
+  ]
+}
