@@ -1,31 +1,43 @@
-# dsh-fei-market
+# 🛒 飞市商城
 
-飞系插件索引源：把飞系（52 个企业管理系统 + 飞脑 Agent 网关）接入 DeepSeek Harness 的「发现」页。
+> 飞市商城（主站）—— 一站式电商主站解决方案
 
-## 用法
+## 📖 项目简介
 
-在 DSH 桌面端/Web UI：插件 → 实验性插件 → 打开「自定义插件索引」→ 发现 → 添加索引源：
+飞市商城是一个功能完善的电商平台主站系统，支持多商户入驻、商品管理、订单处理等核心电商业务，为商家和消费者提供流畅的购物体验。
 
-```text
-https://raw.githubusercontent.com/dukema81/dsh-fei-market/main/site/index.json
+## ✨ 主要特性
+
+- 🏪 **多商户入驻** —— 支持多商家独立入驻，统一管理
+- 📦 **商品管理** —— 完整的商品上架、分类、库存管理
+- 🛍️ **订单系统** —— 全流程订单处理，从下单到售后
+- 💳 **支付集成** —— 支持多种主流支付方式
+- 📊 **数据统计** —— 实时销售数据与运营分析
+- 🔐 **安全可靠** —— 完善的权限控制与数据安全机制
+
+## 🚀 快速开始
+
+```bash
+# 克隆仓库
+git clone https://github.com/dukema81/dsh-fei-market.git
+
+# 进入项目目录
+cd dsh-fei-market
+
+# 安装依赖
+npm install
+
+# 启动开发服务器
+npm run dev
+
+# 构建生产版本
+npm run build
 ```
 
-## 结构
+## 📄 许可证
 
-```text
-site/index.json      # 索引（format 1，官方 schema）
-site/icons/          # 插件图标（与索引同源发布）
-tools/validate_index.py  # 发布前校验器（按官方格式参考实现）
-```
+本项目采用 [MIT License](LICENSE) 开源许可证。
 
-## 规则
+---
 
-- 索引是第三方内容：DSH 只检查格式，不验证声明。本源只收录飞系自研组合包。
-- 发布前必须跑 `python tools/validate_index.py site/index.json`，全绿才推。
-- 只用 https 源。
-
-## 收录
-
-| 插件 | 版本 | 说明 |
-|---|---|---|
-| dsh-plugin-fei-bridge | 0.1.0 | 飞系桥接第一块基石（fei-bridge 插件行） |
+Made with ❤️ by dukema81
