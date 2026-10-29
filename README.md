@@ -40,4 +40,4 @@ npm run build
 
 ---
 
-Made with ❤️ by dukema81
+Made with ❤️ by FeinaoLab

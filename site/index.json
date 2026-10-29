@@ -44,7 +44,7 @@
         "zh": "飞系接入第一块基石：向 profile 插入 fei-bridge 插件行。后续将注册 feinao_chat / fei_query 工具与飞系话术层。"
       },
       "icon": "icons/fei-bridge.svg",
-      "author": "dukema81 (小窝)",
+      "author": "FeinaoLab (小窝)",
       "homepage": "https://github.com/FeinaoLab/dsh-plugin-fei-bridge#readme",
       "repository": {
         "url": "https://github.com/FeinaoLab/dsh-plugin-fei-bridge"
