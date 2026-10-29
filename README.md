@@ -19,7 +19,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/dukema81/dsh-fei-market.git
+git clone https://github.com/FeinaoLab/dsh-fei-market.git
 
 # 进入项目目录
 cd dsh-fei-market

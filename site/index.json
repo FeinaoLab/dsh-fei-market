@@ -45,9 +45,9 @@
       },
       "icon": "icons/fei-bridge.svg",
       "author": "dukema81 (小窝)",
-      "homepage": "https://github.com/dukema81/dsh-plugin-fei-bridge#readme",
+      "homepage": "https://github.com/FeinaoLab/dsh-plugin-fei-bridge#readme",
       "repository": {
-        "url": "https://github.com/dukema81/dsh-plugin-fei-bridge"
+        "url": "https://github.com/FeinaoLab/dsh-plugin-fei-bridge"
       },
       "metadata": {
         "category": "fei",
@@ -62,7 +62,7 @@
           "publishTimestamp": 1793080060,
           "source": {
             "type": "git",
-            "url": "https://github.com/dukema81/dsh-plugin-fei-bridge",
+            "url": "https://github.com/FeinaoLab/dsh-plugin-fei-bridge",
             "commit": "066bbfcddf7ce4229febd54995c22d28b01ee9cc"
           },
           "engines": {
